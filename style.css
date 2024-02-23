@@ -1,0 +1,40 @@
+*{
+
+   box-sizing: border-box; 
+}
+h3{
+text-align: center;
+color: aliceblue;
+
+}
+form{
+
+    width: 50%;
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: gray;
+}
+input , select{
+
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+input[type="submit"]
+{
+background-color: brown;
+color: aliceblue;
+cursor: pointer;
+}
+
+input[type="submit"]:hover
+{
+background-color: rgb(250, 1, 1);
+color: aliceblue;
+}
